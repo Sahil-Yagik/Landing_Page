@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100%;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+.menu a{
+    list-style-type: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.find-store{
+    position: relative;
+    left: 630px;
+    bottom: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.fa-location-dot{
+    font-size: 18px;
+    position: relative;
+    right: 25px;
+    top: 25px;
+}
+.sign-in{
+    
+    position: relative;
+    left: 680px;
+    border: 2px solid black;
+    padding: 5px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.join-now:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.join-now{
+    position: relative;
+    left: 700px;
+    border: 2px solid black;
+    padding: 6px 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: #fff;
+}
+.heading{
+    width: 100%;
+    height: 50px;
+    background-color: 
+    #1e3932;
+    color: #fff;
+}
+h3{
+    font-size: 20px;
+    display: inline;
+    margin-left: 120px;
+    position: relative;
+    top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.star-logo img{
+    width: 700px;
+    height: 450px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+.star-logo{
+    background-color: #d4e9e2;
+    width: 100%;
+    height: 600px;
+    
+}
+.para{
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 350px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.line{
+    font-size: 22px;
+    letter-spacing: 1.9;
+    line-height: 1.5;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button{
+    margin-left: 40px;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 25px;
+    font-size: 18px;
+    background-color: 
+    #008248;
+    color: 
+    #f1f8f6;
+    border: none;
+    outline: none;
+}
+.second-line a{
+    margin-left: 40px;
+    margin-top: 25px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+.second-line{
+    margin-top: 15px;
+    
+}
+.container-2{
+    width: 100%;
+    height: 500px;
+    background-color: #f1f8f6;
+}
+.container-2 p{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.container-2 .p-3 {
+    font-size: 20px;
+    margin-top: 16px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container-card{
+    display: flex;
+    
+}
+.card{
+    width: 400px;
+    height: 280px;
+    margin-top: 100px;
+    margin-left: 70px;
+    
+}
+.first{
+    margin-left: 170px;
+    text-align: center;
+    font-size: 40px;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    border:2px solid #008248;
+    color: #008248;
+}
+.account{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+.line-1{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    
+    line-height: 1.6;
+    letter-spacing: 2.5;
+}
+.line-1 a{
+    color: #008248;
+}
+.line-1 span{
+    margin-left: 90px;
+}
+.li{
+    margin-top: 20px;
+    font-size: 15.7px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin-left: 35px;
+    line-height: 1.7;
+    letter-spacing:3.5;
+
+}
+.li span{
+    margin-left: 90px;
+}
+.li a{
+    color: #008248;
+}
+.lines{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin-left: 35px;
+    line-height: 1.6;
+    letter-spacing: 2.5;
+}
+.lines span{
+    margin-left: 10px;
+}
+
+
+.main{
+    width: 100%;
+    height: 180px;
+    background-color:     
+#75e2bc3b;
+}
+.line-2{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 28px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2.6;
+}
+.numbers{
+    font-size:25px;
+    display: flex;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 30px;
+}
+.fa-star{
+    font-size: 13px;
+    margin-left: 1px;
+    color: rgb(214, 214, 22);
+}
+.container-3{
+    height: 300px;
+    width: 100%;
+    background-color: #add3c6;
+}
+.image-2 img{
+    width: 280px;
+    height: 180px;
+    margin-top: 70px;
+    margin-left: 400px;
+}
+.heading-2{
+    position: absolute;
+    bottom: -830px;
+    left: 55%;   
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+}
+.p-4{
+    position: absolute;
+    bottom: -920px;
+    left: 55%;   
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    line-height: 1.6rem;
+}
+.container-4{
+    height: 720px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.heading-3{
+    text-align: center;
+    position: relative;
+    top: 120px;
+    letter-spacing: 1.2px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+}
+.p-5{
+    text-align: center;
+    position: relative;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    top:140px;
+    font-weight: 600;
+}
+.card{
+    width: 400px;
+    height: 280px;
+    margin-top: 100px;
+    margin-left: 70px;
+    
+}
+.fa-burger{
+    font-size: 80px;
+    margin-top: 200px;
+    margin-left: 230px;
+    color: #3D2B1F;
+}
+.h-4{
+    font-size: 22px;
+    margin-left: 210px;
+    margin-top: 25px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    
+}
+.p-6{
+    font-size: 14px;
+    margin-left: 105px;
+    margin-top: 15px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 22.3px;
+}
+.learn-more {
+    font-size: 17px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.cards a{
+    color: #008248;
+    margin-left: 235px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    position: relative;
+    top: 20px;
+    font-weight: 700;
+}
+.container-cards{
+    display: inline-block;
+}
+.fa-google-pay{
+    font-size: 90px;
+    margin-top: 200px;
+    margin-left: 230px;
+    color: #2b554a;
+}
+.fa-mug-hot{
+    font-size: 90px;
+    margin-top: 200px;
+    margin-left: 250px;
+    color: #2b554a;
+}
+.cards-2{
+    background-color: #f3f1e7;
+    height: 550px;
+    
+}
+.h-5{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.p-7{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    font-size: 14px;
+}
+.number{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 170px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.dollar{
+    position: relative;
+    left: 10px;
+    top: 175px;
+    font-size: 22px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.p-8{
+    position: relative;
+    right: 125px;
+    top: 210px;
+    font-size: 15px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.cards-3{
+    display: flex
+}
+.fa-credit-card{
+    font-size: 100px;
+    position: relative;
+    top: 170px;
+    left: 90px;
+    color: #1e3932;
+}
+.scan{
+    position: relative;
+    top: 175px;
+    left: 110px;
+    font-size: 18px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    
+    font-weight: bold;
+}
+.p-9{
+    position: relative;
+    top: 220px;
+    right: 80px;
+    font-size: 15px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.fa-mobile{
+    font-size: 100px;
+    position: relative;
+    top: 170px;
+    left: 40px;
+    color: #1e3932;
+}
+.payment{
+    position: relative;
+    top: 175px;
+    left: 60px;
+    font-size: 18px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bold;
+}
+.p-10{
+    position: relative;
+    top: 220px;
+    right: 140px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 15px;
+}
+.footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.p-11{
+    
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
